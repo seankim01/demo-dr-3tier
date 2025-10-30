@@ -1,4 +1,4 @@
-# December&Company DR Terraform 
+# Demo DR Terraform  
 
 DR 구축을 위한 Terraform 코드 입니다.
 
