@@ -1,0 +1,8 @@
+vpc,service,position,dst_cidr,igw,vpce,tgw,pl,pcx,nat,eni,description
+fint-dr-dmz-vpc,dmz,dmz-public,0.0.0.0/0,fint-dr-dmz-vpc,,,,,,,
+fint-dr-dmz-vpc,dmz,dmz-public,192.168.204.0/24,,,shared,,,,,
+fint-dr-dmz-vpc,dmz,dmz-private,0.0.0.0/0,,,,,,nat-pub-01a,,
+fint-dr-dmz-vpc,dmz,dmz-private,192.168.204.0/24,,,shared,,,,,
+fint-dr-dmz-vpc,dmz,dmz-private-tgw,0.0.0.0/0,,,,,,nat-pub-01a,,
+fint-dr-service-vpc,service,service-private,0.0.0.0/0,,,shared,,,,,
+fint-dr-service-vpc,service,service-private-ledger,0.0.0.0/0,,,shared,,,,,
